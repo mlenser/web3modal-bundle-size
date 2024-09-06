@@ -1,6 +1,5 @@
 import Image from "next/image";
-
-import { ConnectButton } from '@rainbow-me/rainbowkit';
+import { ConnectButton } from "@/app/components/ConnectButton";
 
 export default function Home() {
   return (
