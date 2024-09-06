@@ -3,6 +3,8 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Providers from "@/app/providers";
 
+import '@rainbow-me/rainbowkit/styles.css';
+
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
