@@ -1,11 +1,11 @@
 # Base build
 
-| | | |
-|:-- | :-- | :-- |
-| Route (app)                |              Size   |  First Load JS |
-|┌ ○ /                      |              5.25 kB   |     92.3 kB |
-|└ ○ /_not-found             |             872 B      |    87.9 kB |
-| + First Load JS shared by all      |      87.1 kB | |
-|  ├ chunks/54688d84-8c87cd8117f30f7e.js | 53.6 kB | |
-|  ├ chunks/914-89424b6d29b64db8.js    |   31.6 kB | |
-|  └ other shared chunks (total)       |   1.86 kB | |
+|                                        |         |               |
+|:---------------------------------------|:--------|:--------------|
+| Route (app)                            | Size    | First Load JS |
+| ┌ ○ /                                  | 5.42 kB | 494 kB        |
+| └ ○ /_not-found                        | 876 B   | 88.6 kB       |
+| + First Load JS shared by all          | 87.7 kB |               |
+| ├ chunks/54688d84-29023b32598a75e9.js  | 53.6 kB |               |
+| ├ chunks/914-730354d423b34daf.js       | 31.7 kB |               |
+| └ other shared chunks (total)          | 2.34 kB |               |
